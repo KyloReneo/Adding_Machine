@@ -1,0 +1,33 @@
+# Minimal Verilog .gitignore
+
+# Simulation files
+*.wlf
+*.vcd
+work/
+modelsim.ini
+vsim.wlf
+transcript
+
+# Vendor tool files
+*.jou
+*.log
+*.bit
+*.sof
+*.qpf
+*.qsf
+
+# Build outputs
+build/
+*.rpt
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep final results
+!output.txt
+
+*.cr.mti
+*.mti
+*.mpf

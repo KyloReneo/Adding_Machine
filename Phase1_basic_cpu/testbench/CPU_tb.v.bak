@@ -44,7 +44,7 @@ module CPU_tb;
         end
         
         // Load instructions
-        $readmemb("programs/instructions.txt", memory);
+        $readmemb(programs/instructions.txt", memory);
         $display("Instructions loaded...");
         
         // Open output file
